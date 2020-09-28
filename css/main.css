@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+p{
+	font-family: 'Comfortaa', cursive;
+}
+span{
+	font-family: 'Comfortaa', cursive;
+}
+a{
+	font-family: 'Comfortaa', cursive;
+}
+button{
+	font-family: 'Comfortaa', cursive;
+}
+.skills{
+	font-family: 'Comfortaa', cursive;
+}
+label{
+	font-family: 'Comfortaa', cursive;
+}
+input{
+	font-family: 'Comfortaa', cursive;
+}
+#containe{
+	width: 100%;
+	height: 3850px;
+/*	background-color: #202020;*/
+	margin: 0 auto;
+}
+/*--- layout 1 ---*/
+#head{
+	width: 100%;
+	height: 1000px;
+	background-color: black;
+}
+/*--- Phần đầu của menu ---*/
+#head .tabthanhmenu{
+	width: 100%;
+	height: 130px;
+	position: fixed;
+/*	background-color: orange;*/
+}
+#head .tabporfolio{
+	width: 15%;
+	height: 130px;
+/*	background-color: antiquewhite;*/
+	float: left;
+}
+#head .tabporfolio p{
+	font-size: 24px;
+	text-align: right;
+	margin-top: 50px;
+	color: white;
+}
+#head .tabmenu{
+	width: 46%;
+	height: 130px;
+/*	background-color: red;*/
+	float: right;
+	margin-right: -5%;
+}
+#head .tabmenu ul{
+	margin-top: 50px;
+	margin-left: -5%;
+	text-align: left;
+}
+#head .tabmenu ul li{
+	font-size: 24px;
+	margin-right: 5%;
+	display: inline-block;
+}
+#head .tabmenu ul li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+#head .tabmenu ul li a:hover{
+	border-bottom :3.5px solid #ECE60C;
+}
+/*--- Kết thúc phần đầu của menu ---*/
+/*--- Phần hai của menu ---*/
+#tabimg{
+	width: 55%;
+	height: 650px;
+/*	background-color: blueviolet;*/
+	float: left; 
+	top: 30px;
+/*	margin-left: 3%;*/
+}
+#tabimg .main {
+    background-image: url(../images/avt.png);
+    width: 43%;
+    height: 500px;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+/*    box-shadow: 1px 2px 10px 5px white;*/
+    animation: slideshow 10s infinite linear;
+}
+@keyframes slideshow {
+    25% {
+        background-image: url(../images/avt.png);
+    }
+    50% {
+        background-image: url(../images/avtt2.png);
+    }
+    75% {
+        background-image: url(../images/avtt3.png);
+    }
+    75% {
+        background-image: url(../images/avtt3.png);
+    }
+}
+#tabhello{
+	width: 40%;
+	height: 500px;
+/*	background-color: red;*/
+	float: left;
+	margin-top: 130px;
+}
+#tabchu{
+	width: 110%;
+	height: 215px;
+/*	background-color: yellowgreen;*/
+	margin-top: 165px;
+	margin-left: 17%;
+}
+p{
+	line-height: 25px;
+}
+#tabhello button{
+	margin-top: 50px;
+	margin-left: 20%;
+	width: 50%;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid #ECE60C;
+	background-color: rgba(0,0,0,0);
+	color: white;
+}
+#tabhello button:hover{
+	background-color: #ECE60C;
+	color: black;
+	transition-duration: 0.3s;
+	transform: scale(1.1);
+}
+/*
+#head hr{
+	display: block;
+	float: right;
+	margin-right: 40%;
+	margin-top: -5px;
+}
+*/
+/*--- Xong layout 1 ---*/
+/*	--- Layout 2 ---*/
+#bodi{
+	width: 100%;
+	height: 1000px;
+	background-color: black;
+}
+
+#shape{
+	width: 60%;
+	height: 825px;
+/*	background-color: brown;*/
+	margin-top: 45px;
+	float: left;
+}
+#shapetext{
+	width: 44%;
+	height: 105px;
+/*	background-color: aqua;*/
+	float: left;
+	margin-top: -15px;
+}
+#shapetext p{
+	float: right;
+	margin-top: 40px;
+}
+#shapetext p:hover{
+	transition-duration: 0.3s;
+	transform: scale(1.2);
+}
+#shapeskills{
+	width: 70%;
+	height: 500px;
+/*	background-color: olivedrab;*/
+	float: right;
+	margin-top: 100px;
+	margin-right: 18%;
+}
+
+* {box-sizing:border-box}
+
+
+.skill {
+  width: 100%; 
+  background-color: #ddd;
+  border-radius: 7px;
+}
+#shapeskills p{
+	color: white;
+}
+
+.skills {
+  border-radius: 7px;
+  text-align: right; 
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 2.5%; 
+  color: white; 
+}
+
+.pts {width: 70%; background-color: #1C7AD0;}
+.ai {width: 80%; background-color: #C96E2B;} 
+.id {width: 65%; background-color: #B5186B}
+.bl {width: 30%; background-color: #f44336;} 
+.dw {width: 60%; background-color: #2AC720;} 
+#shapimg{
+	width: 20%;
+	height: 600px;
+/*	background-color: violet;*/
+	float: right;
+	margin-top: 160px;
+/*	margin-left: -200%;*/
+}
+#shapimg img{
+	width: 200%;
+	margin-left: -120%;
+/*	margin-top: 25px;*/
+}
+/*
+#bodi hr{
+	display: block;
+	float: right;
+	margin-right: 40%;
+	margin-top: -5px;
+}
+*/
+/*--- Xong layout 2 ---*/
+/*--- Layout 3 ---*/
+#bodi3{
+	width: 100%;
+	height: 1000px;
+	background-color: black;
+}
+
+#khungtext{
+	width: 94%;
+	height: 105px;
+/*	background-color: aqua;*/
+	float: right;
+	margin-top: 30px;
+}
+#khungtext p{
+	float: left;;
+	margin-top: 40px;
+	color: white;
+}
+#khungtext p:hover{
+	transition-duration: 0.3s;
+	transform: scale(1.2);
+}
+#boxduan{
+	width: 100%;
+	height: 643px;
+/*	background-color: burlywood;*/
+	float: right;
+	margin-top: 95px;
+	margin-right: -7%;
+}
+#boxduan .boxjob{
+	width: 20%;
+	height: 400px;
+	background-color: white;
+	float: left;
+	margin-right: 2%;
+}
+#boxduan .boxjob img{
+	width: 100%;
+	height: 100%;
+	border: 2px solid #ECE60C
+}
+
+#boxduan button{
+	margin-top: 60px;
+	margin-left: 33%;
+	width: 20%;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid #ECE60C;
+	background-color: rgba(0,0,0,0);
+	color: white;
+}
+#boxduan button:hover{
+	background-color: #ECE60C;
+	color: black;
+	transition-duration: 0.3s;
+	transform: scale(1.1);
+}
+
+/*--- Xong layout 3 ---*/
+/*--- Layout 4 ---*/
+#bodi4{
+	width: 100%;
+	height: 1000px;
+	background-color: black;
+}
+
+#boxtext{
+	width: 94%;
+	height: 105px;
+/*	background-color: aqua;*/
+	float: right;
+	margin-top: 30px;
+}
+#boxtext p{
+	float: left;;
+	margin-top: 40px;
+	color: white;
+}
+#boxtext p:hover{
+	transition-duration: 0.3s;
+	transform: scale(1.2);
+}
+
+#map{
+	background-color: white;
+	width: 30%;
+	height: 300px;
+	float: left;
+	margin-left: 15%;
+	margin-top: 200px;
+}
+#map iframe{
+	width: 100%;
+	height: 300px;
+} 
+
+#contact{
+	width: 50%;
+	height: 500px;
+/*	background-color: #ECE60C;*/
+/*	padding-top: 100px;*/
+	margin-left: 30%;
+}
+#contact form{
+	width: 60%;
+	float: right;
+	padding-top: 150px;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 2.5%;
+	border: 3px solid #ECE60C;
+	border-radius: 6px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+#contact button{
+	margin-top: 50px;
+	margin-left: 20%;
+	width: 60%;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid #ECE60C;
+	background-color: rgba(0,0,0,0);
+	color: white;
+}
+#contact button:hover{
+	background-color: #ECE60C;
+	color: black;
+	transition-duration: 0.3s;
+	transform: scale(1.1);
+}
+#myBtn {
+  display: none;
+  position: fixed; 
+  bottom: 20px; 
+  left: 93%; 
+  z-index: 99; 
+  border: none;
+  outline: none; 
+  background-color: #ECE60C; 
+  color: black; 
+  cursor: pointer;
+  padding: 1.5%; 
+  border-radius: 15px; 
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
